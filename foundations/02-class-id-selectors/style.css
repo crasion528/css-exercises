@@ -1,5 +1,19 @@
 p {
     color: #e77a7af1; 
     font-family: Verdana, "DejaVu Sans", sans-serif;
+}
 
+#div1 {
+    color: #322fe9;
+    font-size: 36px;
+}
+
+.cool {
+    font-size: 24px;
+}
+
+#div2 {
+    background-color: #75f03c;
+    font-size: 24px;
+    font-weight: bold;
 }
