@@ -14,8 +14,6 @@ img {
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 32px;
-  display: flex;
-  justify-content: center;
 }
 
 /* do not edit this footer */
@@ -34,15 +32,9 @@ img {
 .items { 
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 52px;
 }
 
 .wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   max-width: 200px;
-
 }
