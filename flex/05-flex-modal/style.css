@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 html, body {
@@ -54,6 +54,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
+
 }
 
 button {
@@ -74,6 +76,20 @@ button.cancel {
   color: royalblue;
 }
 
-.flexall {
+.header {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  font-size: large;
+}
 
+.flexall {
+  margin: 10px;
+  justify-content: center;
+}
+
+.text {
+  padding: 10px;
+  padding-left: 0px;
+  font-size: 15px;
 }
