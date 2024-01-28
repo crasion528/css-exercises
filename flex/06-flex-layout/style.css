@@ -50,5 +50,14 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
+
+.left-links, .right-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 
