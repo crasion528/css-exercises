@@ -37,12 +37,21 @@ a {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+  padding: 0;
+  margin: 10px;
+
+}
+
 .header {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer {
   display: flex;
+  justify-content: space-between;
 }
 
 .content {
@@ -50,19 +59,17 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .left-links, .right-links {
   display: flex;
   gap: 1rem;
-  width: 100%;
 }
 
-.left-links {
+/* .left-links {
   justify-content: flex-start;
-}
+} */
 
-.right-links {
+/* .right-links {
   justify-content: flex-end;
-}
+} */
