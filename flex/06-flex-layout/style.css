@@ -55,9 +55,14 @@ a {
 
 .left-links, .right-links {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 1rem;
+  width: 100%;
 }
 
+.left-links {
+  justify-content: flex-start;
+}
 
+.right-links {
+  justify-content: flex-end;
+}
